@@ -1,4 +1,4 @@
-# Welcome to Expo app 👋
+# Welcome to Expo app 🌍
 
 ## Get started the activity
 ## It is functional
