@@ -78,7 +78,7 @@ export default function Up() {
           <Text style={styles.subtitle}>Descubra o clima</Text>
         </View>
         <TouchableOpacity style={styles.iconButton}>
-          <Ionicons name="globe-outline" size={24} color="purple" />
+          <Ionicons name="globe-outline" size={22} color="black" />
         </TouchableOpacity>
       </View>
 
@@ -89,7 +89,7 @@ export default function Up() {
         onChangeText={setCity}
       />
       <TouchableOpacity style={styles.searchButton} onPress={handleSearch}>
-        <Text style={styles.searchButtonText}>Pesquisar</Text>
+        <Text style={styles.searchButtonText}>Pesquise por uma cidade</Text>
       </TouchableOpacity>
 
       <Text style={styles.sectionTitle}>Ao redor do mundo</Text>
@@ -153,10 +153,14 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   searchButton: {
+    height:50,
+    width:300,
+    marginLeft:22, 
     backgroundColor: '#8A2BE2',
     paddingVertical: 15,
     paddingHorizontal: 50,
     borderRadius: 30,
+    //width:100,
     alignItems: 'center',
     marginBottom: 30,
   },
