@@ -123,6 +123,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F4F4F4',
     paddingHorizontal: 20,
     paddingTop: 50,
+    marginTop:20
   },
   header: {
     flexDirection: 'row',
@@ -132,6 +133,7 @@ const styles = StyleSheet.create({
   },
   greeting: {
     fontSize: 20,
+    
     fontWeight: 'bold',
     color: '#000',
   },
