@@ -78,7 +78,7 @@ export default function Up() {
           <Text style={styles.subtitle}>Descubra o clima</Text>
         </View>
         <TouchableOpacity style={styles.iconButton}>
-          <Ionicons name="globe-outline" size={22} color="black" />
+          <Ionicons name="globe-outline" size={24} color="black" />
         </TouchableOpacity>
       </View>
 
