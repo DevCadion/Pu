@@ -1,6 +1,6 @@
 // src/app/up.tsx
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, TextInput, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, TextInput, ScrollView, StatusBar } from 'react-native';
 import axios from 'axios';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -71,6 +71,7 @@ export default function Up() {
 
   return (
     <View style={styles.container}>
+      <StatusBar barStyle={'dark-content'}/>
       <View style={styles.header}>
         <View>
           <Text style={styles.greeting}>Olá User,</Text>
@@ -133,7 +134,6 @@ const styles = StyleSheet.create({
   },
   greeting: {
     fontSize: 20,
-    
     fontWeight: 'bold',
     color: '#000',
   },
